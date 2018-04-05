@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Sephardic Rabbinical College</title>
+  <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Flamenco" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .outer {
+    display: table;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("img.jpg");
+    background-size: cover;
+    transition: filter 2s;
+  }
+
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #F4FFE7;
+  }
+
+  .inner {
+    margin: 0 auto;
+    max-width: 50%;
+    border: 1.5px solid #0D008B;
+  }
+
+  .content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 5%;
+  }
+
+  .logo {
+    max-width: 20%;
+    padding-bottom: 10%;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    padding-bottom: 5%;
+    font-family: Calligraffitti, sans-serif;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    padding-bottom: 5%;
+    font-family: Flamenco, sans-serif;
+  }
+
+  a,
+  p {
+    text-decoration: none;
+    color: #0d3f00;
+  }
+
+  a:visited {
+    color: unset;
+  }
+
+  .email:hover {
+    font-size: 130%;
+  }
+
+  .icon {
+    color: black;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .inner {
+      max-width: 90%;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 980px) {
+    .inner {
+      max-width: 75%;
+    }
+  }
+
+  </style>
+</head>
+
+<body>
+  <div class='outer'>
+    <div class='middle'>
+      <div class='inner'>
+        <div class='content'>
+          <a href='/'><img class='logo' src="logo.png" alt="The SRC Logo"></a>
+          <h1>Coming Soon!</h1>
+          <h2>Until then, sign up for our newsletter (below), and we'll let you know when it's live!</h2>
+          <br>
+          <a href='mailto:info@srctorah.org' class='email'>
+            <i class="fas fa-envelope fa-2x icon"></i>
+          </a>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
